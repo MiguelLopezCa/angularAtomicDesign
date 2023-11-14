@@ -1,38 +1,42 @@
-<div class="container">
-  <img src="../../../assets/img/img.png">
-  <h2>Registrarse al curso de Taller de HTML</h2>
-  <form>
-      <div class="todo">
-          <div class="curso-title">
-              <app-datos [datos]="'Cursos:'"></app-datos>
-              <h2>{{titulo}}</h2>
-          </div>
-          
-          <div class="nombre-title">
-              <app-datos [datos]="'Nombre'"></app-datos>
-              <input required>
-          </div>
-  
-          <div class="apellido-title">
-              <app-datos [datos]="'Apellido'"></app-datos>
-              <input required>
-          </div>
-      
-          <div class="email-title">
-              <app-datos [datos]="'Email'"></app-datos>
-          </div>
-          <div class="email-input">
-              <input required>
-          </div>
-          <div class="telefono-title">
-              <app-datos [datos]="'Telefono'"></app-datos>
-          </div>
-          <div class="telefono-input">
-              <input required>
-          </div>
-          <div class="app-boton">
-              <app-boton></app-boton>
-          </div>
-      </div>
-  </form>
+
+<div class="content">
+  <div class="header">
+    <img class="img" src="../../../assets/img/img.jpg">
+    <h2 class="titulo">Registrarse al curso de Taller de HTML</h2>
+  </div>
+  <div class="container">
+  <table class="table">
+    <tr>
+      <td class="label">Curso:</td>
+      <td>
+        <app-datos [datos]="'Taller de HTML'"></app-datos>
+      </td>
+    </tr>
+    <tr>
+      <td class="label">Nombre:</td>
+      <td class="value">
+        <input required>
+      </td>
+      <td class="label">Apellido:</td>
+      <td class="value">
+        <input required>
+      </td>
+    </tr>
+    <tr>
+      <td class="label">Email:</td>
+      <td class="value">
+        <input required>
+      </td>
+      <td class="label">Telefono:</td>
+      <td class="value">
+        <input required>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="4" class="boton">
+        <app-boton></app-boton>
+      </td>
+    </tr>
+  </table>
+</div>
 </div>
