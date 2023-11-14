@@ -2,8 +2,8 @@
     display: grid;
     gap: 1vw;
     height: 60.9vh;
-    margin: 50px auto; /* Ajustado para centrar horizontalmente */
-    width: 70vw; /* Cambiado a 70vw para ocupar el 70% del ancho */
+    margin: 50px auto;
+    width: 70vw;
     grid-template-areas:
       'curso-html curso-css curso-js'
       'curso-metodologias-css curso-framework-frontend curso-atomic-design'
@@ -12,43 +12,89 @@
     justify-items: center;
     align-items: center;
   }
-  .curso-html{
+  .curso-html {
     border-radius: 15px;
-    border: 2px solid rgba(0, 69, 245, 0.89);
+    border: 2px solid #001AFF;
     background: #FFF;
-    box-shadow: 0px 0px 30px 2px rgba(0, 69, 245, 0.25);
-  }
-  curso-css{
+    box-shadow: 0px 0px 30px 2px #0045f540;}
+   .titHtml{
+    color: #001AFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;  
+  } 
+    .btnHtml{
+        background-color:#001AFF ;
+    }
+  
+  .curso-css {
     border-radius: 15px;
-border: 2px solid rgba(241, 0, 245, 0.89);
-background: #FFF;
-box-shadow: 0px 0px 30px 2px rgba(241, 0, 245, 0.25);
-
+    border: 2px solid rgba(241, 0, 245, 0.89);
+    background: #FFF;
+    box-shadow: 0px 0px 30px 2px rgba(241, 0, 245, 0.25);  }
+  .titCss{
+    color: #F100F5;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
   }
-  .curso-js{
+  .btnCss{
+    color: #F100F5;
+  }
+  
+  .curso-js {
     border-radius: 15px;
     border: 2px solid rgba(245, 0, 0, 0.89);
     background: #FFF;
-    box-shadow: 0px 0px 30px 2px rgba(245, 0, 0, 0.25);
+    box-shadow: 0px 0px 30px 2px rgba(245, 0, 0, 0.25);  }
+  .titJs{
+    color:rgba(245, 0, 0, 0.89);
   }
-  .curso-metodologias-css{
+  .btnJs{
+    color: rgba(245, 0, 0, 0.89);
+  }
+  .curso-metodologias-css {
     border-radius: 15px;
     border: 2px solid rgba(3, 209, 110, 0.89);
     background: #FFF;
     box-shadow: 0px 0px 30px 2px rgba(3, 209, 110, 0.25);
   }
-  .curso-framework-frontend{
+  .titMet{
+    color:rgba(3, 209, 110, 0.89) ;
+  }
+  .btnMet{
+    color:rgba(3, 209, 110, 0.89) ;
+  }
+  .curso-framework-frontend {
     border-radius: 15px;
     border: 2px solid rgba(232, 167, 2, 0.89);
     background: #FFF;
-    box-shadow: 0px 0px 30px 2px rgba(232, 167, 2, 0.25);
-  } 
-  .curso-atomic-design{
-    border-radius: 15px;
-    border: 2px solid rgba(245, 103, 0, 0.89);
-    background: #FFF;
-    box-shadow: 0px 0px 30px 2px rgba(245, 103, 0, 0.25);
+    box-shadow: 0px 0px 30px 2px rgba(232, 167, 2, 0.25);  }
+  .titFrame{
+    color:#bae802e3;
   }
+  .btnFrame{
+    background-color:#e8a702e3;    
+    background-color:#e8a702e3;    
+  }
+  .curso-atomic-design {
+    border-radius: 15px;
+    border: 2px solid #f56700e3;
+    background: #FFF;
+    box-shadow: 0px 0px 30px 2px rgba(245, 103, 0, 0.25);  
+    }
+.titAtomic{
+    color: #f56700e3;
+}
+.btnAtomib{
+    color: #f56700e3;
+}
+  
+  
   .todo {
     max-height: 100%;
     width: 250px;
@@ -68,6 +114,7 @@ box-shadow: 0px 0px 30px 2px rgba(241, 0, 245, 0.25);
     font-size: 14px;
     font-weight: bold;
     margin-bottom: 5px;
+    color: rgba(0, 69, 245, 0.89); /* Color del borde del curso-html */
   }
   
   .app-descripcion {
@@ -84,6 +131,7 @@ box-shadow: 0px 0px 30px 2px rgba(241, 0, 245, 0.25);
     border-radius: 5px;
     font-size: 12px;
     transition: background-color 0.3s;
+    border: 2px solid rgba(0, 69, 245, 0.89); /* Color del borde del curso-html */
   }
   
   .app-boton:hover {
