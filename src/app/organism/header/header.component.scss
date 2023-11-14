@@ -1,27 +1,29 @@
+* {
+    background: #6553D6;   
+    color: #fff;
+    height: 5vw;
+}
+
 .curso-container {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-  }
-  
-  .curso-title {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  .custom-button {
-    background-color: #3498db; /* Color de fondo del botón */
-    color: #fff; /* Color del texto del botón */
-    padding: 10px 20px; /* Espaciado interno del botón */
-    border: none; /* Elimina el borde del botón */
-    cursor: pointer; /* Cambia el cursor al pasar el ratón */
-    border-radius: 5px; /* Bordes redondeados */
-    font-size: 16px; /* Tamaño del texto */
-    transition: background-color 0.3s; /* Agrega una transición de color de fondo */
-  }
-  
-  .custom-button:hover {
-    background-color: #2980b9; /* Cambia el color de fondo al pasar el ratón */
-  }
-  
+}
+
+.curso-title {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left; /* Alinea a la izquierda */
+    margin: 0; /* Elimina el margen predeterminado */
+}
+
+.custom-button {
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 28px;
+}
