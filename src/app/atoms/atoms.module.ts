@@ -4,6 +4,8 @@ import { TituloComponent } from './titulo/titulo.component';
 import { DescripcionComponent } from './descripcion/descripcion.component';
 import { BotonComponent } from './boton/boton.component';
 import { DatosComponent } from './datos/datos.component';
+import { AvanceComponent } from './avance/avance.component';
+import { BarraComponent } from './barra/barra.component';
 
 
 
@@ -12,7 +14,9 @@ import { DatosComponent } from './datos/datos.component';
     TituloComponent,
     DescripcionComponent,
     BotonComponent,
-    DatosComponent
+    DatosComponent,
+    AvanceComponent,
+    BarraComponent
   ],
   imports: [
     CommonModule

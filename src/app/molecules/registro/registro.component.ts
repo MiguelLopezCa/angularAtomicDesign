@@ -8,6 +8,6 @@ import { Router } from '@angular/router';
 })
 export class RegistroComponent {
   constructor(private router: Router) {}
-  @Input() titulo: string = 'Taller de HTML';
+  @Input() titulo: string = 'Registrarse al curso de Taller de HTML';
 
 }

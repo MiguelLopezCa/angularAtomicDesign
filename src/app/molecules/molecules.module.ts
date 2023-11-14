@@ -3,12 +3,13 @@ import { CommonModule } from '@angular/common';
 import { CardComponent } from './card/card.component';
 import { AtomsModule } from '../atoms/atoms.module';
 import { RegistroComponent } from './registro/registro.component';
-
+import { AvanceComponent } from './avance/avance.component';
 
 @NgModule({
   declarations: [
     CardComponent,
-    RegistroComponent
+    RegistroComponent,
+    AvanceComponent
   ],
   imports: [
     CommonModule,
@@ -16,7 +17,8 @@ import { RegistroComponent } from './registro/registro.component';
   ],
   exports:[
     CardComponent,
-    RegistroComponent
+    RegistroComponent,
+    AvanceComponent
     ]
 })
 export class MoleculesModule { }

@@ -1,42 +1,41 @@
-
 <div class="content">
   <div class="header">
     <img class="img" src="../../../assets/img/img.jpg">
-    <h2 class="titulo">Registrarse al curso de Taller de HTML</h2>
+    <h2 class="titulo">{{ titulo }}</h2>
   </div>
   <div class="container">
-  <table class="table">
-    <tr>
-      <td class="label">Curso:</td>
-      <td>
-        <app-datos [datos]="'Taller de HTML'"></app-datos>
-      </td>
-    </tr>
-    <tr>
-      <td class="label">Nombre:</td>
-      <td class="value">
-        <input required>
-      </td>
-      <td class="label">Apellido:</td>
-      <td class="value">
-        <input required>
-      </td>
-    </tr>
-    <tr>
-      <td class="label">Email:</td>
-      <td class="value">
-        <input required>
-      </td>
-      <td class="label">Telefono:</td>
-      <td class="value">
-        <input required>
-      </td>
-    </tr>
-    <tr>
-      <td colspan="4" class="boton">
-        <app-boton></app-boton>
-      </td>
-    </tr>
-  </table>
-</div>
+    <form >
+      <table class="table">
+        <tr>
+          <td class="label">Curso:</td>
+          <td>
+            <app-datos [datos]="titulo"></app-datos>
+          </td>
+        </tr>
+        <tr>
+          <td class="label">Nombre:</td>
+          <td class="value">
+            <input name="nombre"  required>
+          </td>
+          <td class="label">Apellido:</td>
+          <td class="value">
+            <input name="apellido"  required>
+          </td>
+        </tr>
+        <tr>
+          <td class="label">Email:</td>
+          <td class="value">
+            <input name="email"  required>
+          </td>
+          <td class="label">Telefono:</td>
+          <td class="value">
+            <input name="telefono"  required>
+          </td>
+        </tr>
+      </table>
+      <div class="btn">
+        <app-boton ></app-boton>
+      </div>
+    </form>
+  </div>
 </div>
