@@ -1,21 +1,20 @@
 .container {
     display: grid;
     gap: 1vw;
-    height: 60.9vh;
+    height: 28.7vw;
     margin: 50px auto;
     width: 70vw;
     grid-template-areas:
       'curso-html curso-css curso-js'
-      'curso-metodologias-css curso-framework-frontend curso-atomic-design'
-      'nav footer';
+      'curso-metodologias-css curso-framework-frontend curso-atomic-design';
+      
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     align-items: center;
   }
   .curso-html {
     border-radius: 15px;
-    border: 2px solid #001AFF;
-    background: #FFF;
+    border: 2px solid hsl(234, 100%, 50%);
     box-shadow: 0px 0px 30px 2px #0045f540;}
    .titHtml{
     color: #001AFF;
@@ -25,10 +24,6 @@
     font-weight: 400;
     line-height: normal;  
   } 
-    .btnHtml{
-        background-color:#001AFF ;
-    }
-  
   .curso-css {
     border-radius: 15px;
     border: 2px solid rgba(241, 0, 245, 0.89);
@@ -42,10 +37,6 @@
     font-weight: 400;
     line-height: normal;
   }
-  .btnCss{
-    color: #F100F5;
-  }
-  
   .curso-js {
     border-radius: 15px;
     border: 2px solid rgba(245, 0, 0, 0.89);
@@ -53,9 +44,6 @@
     box-shadow: 0px 0px 30px 2px rgba(245, 0, 0, 0.25);  }
   .titJs{
     color:rgba(245, 0, 0, 0.89);
-  }
-  .btnJs{
-    color: rgba(245, 0, 0, 0.89);
   }
   .curso-metodologias-css {
     border-radius: 15px;
@@ -66,9 +54,6 @@
   .titMet{
     color:rgba(3, 209, 110, 0.89) ;
   }
-  .btnMet{
-    color:rgba(3, 209, 110, 0.89) ;
-  }
   .curso-framework-frontend {
     border-radius: 15px;
     border: 2px solid rgba(232, 167, 2, 0.89);
@@ -76,10 +61,6 @@
     box-shadow: 0px 0px 30px 2px rgba(232, 167, 2, 0.25);  }
   .titFrame{
     color:#bae802e3;
-  }
-  .btnFrame{
-    background-color:#e8a702e3;    
-    background-color:#e8a702e3;    
   }
   .curso-atomic-design {
     border-radius: 15px;
@@ -89,16 +70,11 @@
     }
 .titAtomic{
     color: #f56700e3;
-}
-.btnAtomib{
-    color: #f56700e3;
-}
-  
-  
-  .todo {
+} 
+.todo {
     max-height: 100%;
-    width: 250px;
-    height: 200px;
+    width: 220px;
+    height: 160px;
     border: 1px solid;
     border-radius: 10px;
     display: flex;
@@ -107,34 +83,52 @@
     align-items: center;
     text-align: center;
     padding: 10px;
-    box-sizing: border-box;
   }
   
   .app-titulo {
     font-size: 14px;
     font-weight: bold;
     margin-bottom: 5px;
-    color: rgba(0, 69, 245, 0.89); /* Color del borde del curso-html */
+    color: rgba(0, 69, 245, 0.89);
   }
   
   .app-descripcion {
     font-size: 12px;
     margin-bottom: 10px;
   }
-  
-  .app-boton {
-    background-color: #3498db;
-    color: #fff;
-    padding: 5px 10px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    font-size: 12px;
-    transition: background-color 0.3s;
-    border: 2px solid rgba(0, 69, 245, 0.89); /* Color del borde del curso-html */
-  }
-  
-  .app-boton:hover {
-    background-color: #2980b9;
-  }
+
+
+.btnHtml {
+  background-color: #001aff;
+  border-radius: 10px;
+
+  color: #fff; /* Agrega el color del texto */
+}
+
+.btnCss {
+border-radius: 10px;
+background-color: #f100f5;
+}
+
+.btnJs {
+  border-radius: 10px;
+  background-color: #F50000;
+}
+
+.btnMet {
+  border-radius: 10px;
+  background-color:#03D16E;
+
+}
+
+.btnFrame {
+  border-radius: 10px;
+  background-color: #4caf50;
+}
+
+.btnAtomic {
+  background-color: #f56700e3;
+  border-radius: 10px;
+}
+
   
